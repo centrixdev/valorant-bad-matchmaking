@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 app.post('/results/', ({body},res) => {
     var config = {
         method: 'get',
-        url: `https://api.henrikdev.xyz/valorant/v3/matches/eu/${body.name}/${body.tag}?filter=competitive`,
+        url: `https://api.henrikdev.xyz/valorant/v3/matches/${body.region}/${body.name}/${body.tag}?filter=competitive`,
         headers: { }
       };
       

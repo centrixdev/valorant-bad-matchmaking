@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See how many times you've got the worst player in the lobby on your team">
+    <meta name="keywords" content="VALORANT, Ranked, Elohell">
+    <meta name="author" content="centrix">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>fucking shitbots every round.</title>
 </head>
@@ -44,7 +47,16 @@
                                     Your Tag
                                 </label>
                                 <input required placeholder="ace" type="text" class="form-control" id="tag" name="tag"/>
-    
+
+                                <label for="region" style="margin: 10px 0 0 0;">Choose Your Region</label>
+
+                                <select id="region" name="region" >
+                                    <option value="eu" >EU</option>
+                                    <option value="na" >NA / LATAM / BR</option>
+                                    <option value="ap" >AP</option>
+                                    <option value="kr" >KR</option>
+                                </select>
+                                <br />
     
                             <button type="submit" class="btn btn-primary " style="margin: 10px 0 0 0;">
                                 Make me tilt
