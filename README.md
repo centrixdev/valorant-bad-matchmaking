@@ -5,3 +5,5 @@
 Happy Tilting :)
 
 hosted on [valorant-bad-matchmaking.herokuapp.com](https://valorant-bad-matchmaking.herokuapp.com/)
+
+[unofficial valorant api](https://henrikdev.xyz/)
