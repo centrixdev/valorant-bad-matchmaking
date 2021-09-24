@@ -10,6 +10,13 @@
 <body>
 
     <div class="container-fluid">
+        <% if(error) { %>
+          <div class="alert alert-danger">	 
+                 <h4>
+                     Couldn't find Player!
+                 </h4> Ayyy sorry bruv couldn't find u. just check if u typed everything in correctly. can happen while tilted
+             </div>  
+        <% } %>
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-center" style="margin: 100px 0 30px 0;">
